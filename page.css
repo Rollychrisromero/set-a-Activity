@@ -1,0 +1,109 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Cambria";
+}
+
+
+
+.load{
+    animation: slide 2s;
+    
+}
+.slider{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    animation: slide 40s infinite;
+    
+}
+.content{
+    color: #fff;
+    width: 100%;
+    height: 100vh;
+    background-color: #0001;
+    padding-top: 100px;
+}
+.principal{
+    left: 50%;
+    top: 40%;
+    
+    position: relative;
+    letter-spacing: 5px;   
+    text-align: center;
+}
+.principal h1{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    font-size: 80px;
+    margin-bottom: 20px;
+    background-color: #000;
+    color: #fff;
+    padding: 35px;
+    border-radius: 8px;
+    margin: 0;
+    mix-blend-mode: multiply;
+    box-shadow: 0 0 16px #000, 0 0 32px #000;
+    opacity: 0.9;
+}
+
+@keyframes slide {
+    
+    0%{
+        background-image: url('img/images (92).jpeg');
+    }
+    20%{
+        background-image: url('img/images (79).jpeg');
+    }
+    20.01%{
+        background-image: url('img/images (78).jpeg');
+    }
+    40%{
+        background-image: url('img/images (80).jpeg');
+    }
+    40.01%{
+        background-image: url('img/images (90).jpeg');
+    }
+    60%{
+        background-image: url('img/images.jpeg');
+    }
+    60.01%{
+        background-image: url('img/images (82).jpeg');
+    }
+    80%{
+        background-image: url('img/images (91).jpeg');
+    }
+    80.01%{
+        background-image: url('img/images (77).jpeg');
+    }
+    100%{
+        background-image: url('img/images (76).jpeg');
+    }
+    
+    
+
+}
+.button{
+    background: aqua;
+    color: black;
+    cursor: pointer;
+    position: relative;
+    font-size: 30px;
+    font-family: italic;
+    padding: 14px 35px;
+    overflow: hidden;
+    transform: 0.2s;
+    float: left;
+    margin-top: 135px;
+    border-radius: 8px;
+    margin-left: -50px;
+}
+.butt button:hover{
+    background: #2196f3;
+    color: #255784;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px, 0 0 80px #2196f3;
+    transition-delay: 0.5s
+
+}

@@ -1,0 +1,61 @@
+
+.main{
+    background: linear-gradient(to right, violet, skyblue);
+}
+.whole{
+    background-color: aqua;
+    padding-left: 70px;
+    padding-right: 40px;
+    margin-top: 300px;
+    padding-top: 1px;
+    width: 35%;
+    height: 700px;
+    margin: auto;
+  
+    font-family: italic;
+    
+}
+#subj-grade-remark{
+    font-size: 20px;
+ 
+}
+#grade{
+    float: center;
+}
+.eval{
+    padding-left: 80px;
+}
+.text{
+    padding-left: 55px;
+}
+#grade{
+    padding-left: 110px;
+}
+#remarks{
+    padding-left: 80px;
+}
+#button{
+    cursor: pointer;
+}
+.button{
+    background:#fff;
+    color: black;
+    cursor: pointer;
+    
+    font-size: 20px;
+    font-family: italic;
+    padding: 5px 25px;
+    
+    transform: 0.2s;
+}
+.butt button:hover{
+    background: #2196f3;
+    color: #255784;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px, 0 0 80px #2196f3;
+    transition-delay: 0.5s;
+
+}
+#rank{
+    float: right;
+    margin-right: -160px;
+}
